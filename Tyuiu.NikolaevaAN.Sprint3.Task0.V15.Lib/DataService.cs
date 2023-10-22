@@ -12,11 +12,11 @@ namespace Tyuiu.NikolaevaAN.Sprint3.Task0.V15.Lib
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
             double sumSeries = 0;
-            for (int i = startValue; i <= stopValue; i++)
+            for (double i = startValue; i <= stopValue; i++)
             {
-                sumSeries += (Math.Pow(value, i) + (2 / (i + 1))) * Math.Sin(value);
+                sumSeries = sumSeries + (Math.Pow(value, i) + (2 / (i + 1))) * Math.Sin(value);
             }
-            return sumSeries;
+            return Math.Round(sumSeries,3);
         }
     }
 }

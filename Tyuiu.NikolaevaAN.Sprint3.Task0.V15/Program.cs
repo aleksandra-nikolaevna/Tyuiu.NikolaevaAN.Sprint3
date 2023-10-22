@@ -31,6 +31,7 @@ namespace Tyuiu.NikolaevaAN.Sprint3.Task0.V15
             double value = 0.7;
             int startValue = 1;
             int stopValue = 10;
+
             Console.WriteLine("Переменная t = " + value);
             Console.WriteLine("Старт шага = " + startValue);
             Console.WriteLine("Конец шага = " + stopValue);
